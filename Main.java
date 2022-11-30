@@ -1,4 +1,5 @@
-public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) {
     Thread t = new Thread(new Runnable() {
         @Override
         public void run() {
@@ -6,4 +7,5 @@ public static void main(String[] args) {
         }
     });
     t.start();
+}
 }
